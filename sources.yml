@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: transactional
-    database: YOUR_DATABASE
-    schema: YOUR_TRANSACTIONAL_SCHEMA
+    database: mysales
+    schema: raw
     tables:
       - name: MENU_ITEM
       - name: PAYMENT_METHOD
