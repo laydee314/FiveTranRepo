@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: transactional
+    database: YOUR_DATABASE
+    schema: YOUR_TRANSACTIONAL_SCHEMA
+    tables:
+      - name: MENU_ITEM
+      - name: PAYMENT_METHOD
+      - name: STORES
+      - name: TRANSACTION_ITEMS
+      - name: TRANSACTIONS
+      - name: USERS
+      - name: VOUCHER
